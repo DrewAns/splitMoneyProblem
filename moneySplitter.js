@@ -27,6 +27,7 @@ const moneySplitterValidator = (splitMoney, total, count) => {
       splitMoneySum += .01
       splitMoney[index] += .01
     }
+    iterator++;
   }
 
   return splitMoney
